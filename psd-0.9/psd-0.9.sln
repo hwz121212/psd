@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{D0AF8B8B-B420-416A-B770-F5DCA66A3AB7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpsd", "thirdparty\psd-0.9\libpsd.vcxproj", "{0DEBB3CC-712B-4AC1-84DF-E2D9D7D5F859}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libzlib", "thirdparty\zlib-1.2.12\libzlib.vcxproj", "{98370A1A-2305-3AE1-8D6B-0841290DE59E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DEBB3CC-712B-4AC1-84DF-E2D9D7D5F859}.Debug|x64.ActiveCfg = Debug|x64
+		{0DEBB3CC-712B-4AC1-84DF-E2D9D7D5F859}.Debug|x64.Build.0 = Debug|x64
+		{0DEBB3CC-712B-4AC1-84DF-E2D9D7D5F859}.Release|x64.ActiveCfg = Release|x64
+		{0DEBB3CC-712B-4AC1-84DF-E2D9D7D5F859}.Release|x64.Build.0 = Release|x64
+		{98370A1A-2305-3AE1-8D6B-0841290DE59E}.Debug|x64.ActiveCfg = Debug|x64
+		{98370A1A-2305-3AE1-8D6B-0841290DE59E}.Debug|x64.Build.0 = Debug|x64
+		{98370A1A-2305-3AE1-8D6B-0841290DE59E}.Release|x64.ActiveCfg = Release|x64
+		{98370A1A-2305-3AE1-8D6B-0841290DE59E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DEBB3CC-712B-4AC1-84DF-E2D9D7D5F859} = {D0AF8B8B-B420-416A-B770-F5DCA66A3AB7}
+		{98370A1A-2305-3AE1-8D6B-0841290DE59E} = {D0AF8B8B-B420-416A-B770-F5DCA66A3AB7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
+	EndGlobalSection
+EndGlobal
